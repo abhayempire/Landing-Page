@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    /* font-family:  'Roboto', sans-serif; */
+}
+
+body h4{
+    text-transform: uppercase;
+}
+
+header{
+    background-color: rgb(0,71,194);
+    padding: 45px;
+}
+
+header nav .logo{
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 43px;
+    color: #fff;
+}
+
+.navbar .date{
+    font-size: 1.3rem;
+    text-align: right;
+    margin-right: 21px;
+    color: #4385fa;
+    margin-top: 22px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+header nav .logo a{
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+}
+
+header nav .logo a:hover{
+    color: #4385fa;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    font-size: 1em;
+    display: inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header ul li a:hover{
+    color: #4385fa;
+    
+}
+
+a:hover{
+    color: #4385fa;
+}
+
+.logo:hover{
+    color: #4385fa;
+}
+
+.content1{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.content1 p{
+    width: 75%;
+    margin: 25px auto 0 auto;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.content1 h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.speakers{
+    margin-top: 70px;
+}
+
+.speakers h2{
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(0,71,194);
+}
+
+.speakers p{
+    font-size: 18px;
+}
+
+.speakers img{
+    border-radius: 50%;
+    width: 14vw;
+    height: 30vh;
+    z-index: 5;
+    position: relative;
+}
+
+.speakers .photo1{
+    margin-top: 27px;
+   
+}
+
+.speakers .speaker1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.speakers .para1{
+    width: 44%;
+}
+
+.speakers h4{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+fieldset{
+    padding: 100px 140px;
+    position: relative;
+    bottom: 130px;
+    right: 45px;
+}
+
+.speakers .speaker2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.speakers .para2{
+    width: 44%;
+}
+
+footer{
+    background-color: rgb(0,71,194);
+    padding: 50px 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer p{
+    display: inline-block;
+    
+}
+
+footer nav{
+    display: inline-block;
+}
+
+footer nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer nav ul li a:hover{
+    color: #4385fa;
+}
+
+footer p{
+    color: #4385fa;
+    font-size: 0.8em;
+}

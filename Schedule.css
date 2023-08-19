@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    
+}
+
+body h4{
+    text-transform: uppercase;
+}
+
+header{
+    background-color: rgb(0,71,194);
+    padding: 45px;
+}
+
+header nav .logo{
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 43px;
+    color: #fff;
+}
+header nav .logo a{
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+ }
+
+header nav .logo a:hover{
+    color: #4385fa;
+}
+
+.navbar .date{
+    font-size: 1.3rem;
+    text-align: right;
+    margin-right: 21px;
+    color: #4385fa;
+    margin-top: 22px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    font-size: 1em;
+    display: inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header ul li a:hover{
+    color: #4385fa;
+    
+}
+
+a:hover{
+    color: #4385fa;
+}
+
+.logo:hover{
+    color: #4385fa;
+}
+
+.content1{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.content1 p{
+    width: 75%;
+    margin: 25px auto 0 auto;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.content1 h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.content2{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 h3{
+    color: rgb(0,71,194);
+    font-weight: 500;
+}
+
+hr{
+    margin: 30px 0px 20px 0px;
+}
+
+.content2 .heading1 .time1{
+    margin: 51px 0px;
+}
+
+.heading1{
+    width: 13%;
+    text-align: end;
+    position: relative;
+    bottom: 3px;
+}
+
+.heading2{
+    width: 80%;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .para1 p{
+    width: 95%;
+    line-height: 20px;
+}
+
+.content2 .heading1 .time2{
+    margin-top: 96px;
+}
+
+.container1 .para1 hr{
+    width: 167%;
+}
+
+.content2 .heading1 .time3{
+    margin-top: 52px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 .para2 p{
+    width: 95%;
+    line-height: 20px;
+}
+
+footer{
+    background-color: rgb(0,71,194);
+    padding: 50px 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer p, nav{
+    display: inline-block;
+    
+}
+
+footer nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+    
+}
+
+footer nav ul li a:hover{
+    color: #4385fa;
+}
+
+footer p{
+    color: #4385fa;
+    font-size: 0.8em;
+}
